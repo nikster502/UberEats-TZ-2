@@ -1,0 +1,54 @@
+.header-btn{
+    height: 40px;
+    width: 72px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 2px;
+}
+.header-menu{
+    height: 72px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+.header-btn--white{
+    background: white;
+    border: 1px solid #F2F2F2;
+}
+.header-btn--black{
+    background: black;
+    color: white;
+}
+
+.form__image{
+padding-left: 10px;
+}
+
+.menu-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    padding-right: 5px;
+    max-width: 956px;
+    margin: auto;
+}
+.btn-group{
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    .menu-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+    }
+
+}

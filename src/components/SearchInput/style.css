@@ -1,0 +1,31 @@
+.header_inputSearch{
+    background: #F2F2F2;
+    color:  black ;
+    width: 100%;
+    border: none;
+    height: 48px;
+    border-bottom: 1px solid rgba(117, 117, 117, 0.3);
+
+    line-height : 24px;
+    /*opacity: 50%;*/
+    font-style: normal;
+    padding-left: 24px ;
+
+}
+.header_search{
+    display: flex;
+    position: relative;
+    padding: 30px 5px 0 10px;
+}
+.header-searchLoup{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    height: 48px;
+}
+
+@media screen and (min-width:768px){
+    .header_inputSearch{
+        background: white;
+    }
+}

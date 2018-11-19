@@ -1,0 +1,19 @@
+.header{
+    max-width: 100%;
+
+}
+.header_deliveryСontainer{
+    display: flex;
+    height: 61px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 24px;
+}
+.header-section{
+    max-width: 956px;
+    margin: auto;
+}
+@media screen and (min-width:768px){
+
+}
+

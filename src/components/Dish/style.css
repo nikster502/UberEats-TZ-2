@@ -1,0 +1,61 @@
+.row{
+    margin: 0;
+}
+
+
+.dish-img{
+    width: 100%;
+}
+
+.dish-name{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: #1D1D1D ;
+}
+
+.dish-price{
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+    color: #626262 ;
+}
+.dish-time{
+    font-size: 13px;
+    line-height: 21px;
+    text-align: left;
+    color: #1D1D1D ;
+    padding-bottom: 10px;
+}
+.dish-link{
+text-decoration: none;
+}
+
+@media screen and (min-width:576px){
+    .dish-margin:nth-child(odd){
+        padding-right: 8px;
+    }
+    .dish-margin:nth-child(even){
+        padding-left: 8px;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    .dish-margin:nth-child(odd){
+        padding-right: 0;
+    }
+    .dish-margin:nth-child(even){
+        padding-left: 0;
+    }
+
+
+.dish{
+    margin-right: 16px ;
+}
+
+
+}
+.bnt-bucket{
+margin-bottom: 10px;
+}

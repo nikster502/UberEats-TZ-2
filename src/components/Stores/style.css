@@ -1,0 +1,23 @@
+.socials-container{
+
+}
+.store-container{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    max-width: 280px;
+    padding-top: 16px;
+    padding-bottom: 30px ;
+    justify-content: space-around;
+}
+.store-ico{
+
+}
+
+@media screen and (min-width:575px){
+    .store-container{
+
+        max-width: 320px;
+
+    }
+}

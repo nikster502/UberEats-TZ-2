@@ -1,0 +1,41 @@
+.content{
+
+    margin: auto;
+    max-width: 956px;
+    width: 100%;
+
+}
+
+
+@media screen and (min-width:992px){
+    .content{
+        max-width: 972px;
+        padding-left: 16px;
+    }
+}
+.container-fluid{
+    padding-right: 5px;
+    padding-left: 10px;
+}
+.row{
+    margin: 0;
+}
+.dish-margin{
+    padding: 0;
+}
+
+.content-city{
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: inherit;
+    height: 34px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 40px;
+    padding-bottom: 14px;
+    margin: 0;
+}
+.filter{
+    display: flex;
+    padding: 5px;
+}
