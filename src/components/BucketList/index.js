@@ -25,7 +25,6 @@ class BucketList extends Component {
                            <li key = {index}>
                                {bucket.product.productName+" price "+ bucket.product.price}
                                </li>
-
                     )}
 
                 </ul>

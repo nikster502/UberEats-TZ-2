@@ -38,6 +38,7 @@ class Dish extends Component {
 
                <div className="content-dish dish">
                    <div className="dish-link" href="" >
+                   {/*<img className="dish-img" src="http://eburger.by/wp-content/uploads/2015/03/burger-korolevskiy.jpg" alt={altImg}/>*/}
                    <img className="dish-img" src={srcImg} alt={altImg}/>
                    <h3 className="dish-name">{dishName}</h3>
                    <p className="dish-price">{dishPrice}</p>
